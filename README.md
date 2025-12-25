@@ -25,7 +25,7 @@ A two-proportion z-test was used to evaluate the effectiveness of A/B testing. T
 
 ## **Methods:**
 - A/B testing;
-- z-test for proportions;
+- robust two-sided Z-test for proportions (pooled).;
 - conversion rate analysis;
 - multiple testing correction;
 - segmentation analysis.
@@ -34,5 +34,20 @@ A two-proportion z-test was used to evaluate the effectiveness of A/B testing. T
 The dataset was created using a SQL query against tables in the BigQuery database. The dataset contained the following fields: date, country, device, continent, channel, test, test_group, event_name, and value. The event_name field represents user events and metrics used to analyze A/B testing results and conversion behavior in the sales funnel, including: add_payment_info, add_shipping_info, add_to_cart, begin_checkout, click, first_visit, new_account, page_view, scroll, select_item, select_promotion, session, session_with_orders, session_start, user_engagement, view_item, view_item_list, view_promotion, and view_search_results. Appropriate table joins were applied during the dataset creation, and UNION ALL was used to combine event-level data from multiple sources into a single analytical dataset.
 
 ## **List of tasks:**
+1. Connecting to a database.
+2. Description of the received dataset.
+3. Calculation of statistical significance.
+   3.1. Setting up conversion metrics.
+   3.2. Calculating significance in total for the test.
+   3.3. Saving results to disk for basic metrics.
+   3.4. Visualization of results for each test.
+     3.4.1. Visualization of results of all metrics for each test.
+     3.4.2. Visualization of results of only basic metrics for each test.
+   3.5. Analysis of basic metrics by continent.
+   3.6. Analysis of basic metrics by country.
+   3.7. Analysis of basic metrics by device.
+4. Overall Сonclusion.
+5. Results file.
+6. Dashboard in Tableau Public.
 
 ## **Demonstrated Skills:**
