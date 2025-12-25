@@ -1,4 +1,4 @@
-# Portfolio Project A/B Testing Analysis with Statistical Methods in Python
+# Portfolio Project - A/B Testing Analysis with Statistical Methods in Python
 
 ## **Description:**
 This portfolio demonstrates a project on analyzing A/B testing results using statistical methods in Python. The calculation of statistical significance is demonstrated using a Python script. For better understanding, visualizations are included showing key conversion metrics and statistical significance for four metrics (add_payment_info, add_shipping_info, begin_checkout, and new_accounts).  
