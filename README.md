@@ -1,8 +1,8 @@
 # Portfolio Project - A/B Testing Analysis with Statistical Methods in Python
 
 ## **Description:**
-This portfolio demonstrates a project on analyzing A/B testing results using statistical methods in Python. The calculation of statistical significance is demonstrated using a Python script. For better understanding, visualizations are included showing key conversion metrics and statistical significance for four metrics (add_payment_info, add_shipping_info, begin_checkout, and new_accounts).  
-A two-proportion z-test was used to evaluate the effectiveness of A/B testing. The analysis was performed for the tests as a whole, as well as for segments by continent, country, and device.
+This portfolio includes a project that analyzes A/B testing results using statistical methods in Python. The calculation of statistical significance is demonstrated using a Python script. For better understanding, visualizations are included showing key conversion metrics and statistical significance for four metrics (add_payment_info, add_shipping_info, begin_checkout, and new_accounts).    
+A two-proportion z-test was used to evaluate the effectiveness of A/B testing. The analysis was performed for the tests as a whole and for segments by continent, country, and device.    
 
 ## **Tools & Environment:**
 - Google Colab.
@@ -70,4 +70,4 @@ The dataset was created using a SQL query against tables in the BigQuery databas
   - Provided clear visual interpretation of A/B test results for decision-making.
 6. SQL & Google Colab Integration:
   - Extracted datasets via SQL queries from BigQuery.
-  - Worked in Google Colab environment and saved results to Google Drive.
+  - Worked in the Google Colab environment and saved results to Google Drive.
